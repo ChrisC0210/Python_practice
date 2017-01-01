@@ -1,4 +1,3 @@
-#-*- coding: utf-8 -*-
 def main():
     score = int(input("輸入分數"))
     if score >= 90:
