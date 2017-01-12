@@ -1,5 +1,9 @@
 #Pig Latin translator
-
+'''
+    #3Conditionals and Control Flow
+    就只是重複第一個字母，然後加上'ay'
+    超無聊的
+'''
 pyg = 'ay'
 original = input('Enter a word:')
 if len(original) > 0 and original.isalpha():
