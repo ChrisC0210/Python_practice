@@ -1,4 +1,4 @@
-# 用來爬巴哈姆特的AndroidAPP排行
+# 用來爬巴哈姆特的OnlyGame排行
 import requests
 from bs4 import BeautifulSoup
 game_raking_html = requests.get(
