@@ -12,8 +12,3 @@ for game in soup.findAll(class_='ACG-mainbox1'):
     print(game.find(class_='ACG-mainumber').string + ' ' +
           game.find(class_='ACG-maintitle').find('a').string)
 print("\n查詢日期" + datetime.datetime.now().date().strftime("%Y-%m-%d"))
-<<<<<<< HEAD
-# Branch_function_01
-=======
-# master_NewFunction
->>>>>>> refs/remotes/origin/master
